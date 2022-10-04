@@ -24,7 +24,14 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Backend Project for Tatsumeeko's assignment
+
+## Endpoints
+- Get floor price for Meekolony on Magic Eden
+- Get listings on Magic Eden
+- Get sales on Magic Eden
+- Get Meekolony NFTs for a particular user address*
+- Get number of unique holders for the Meekolony collection
 
 ## Installation
 
