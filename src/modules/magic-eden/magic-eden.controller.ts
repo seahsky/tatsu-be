@@ -76,7 +76,7 @@ export class MagicEdenController {
   async getNFTsByWalletAddress(
     @Param('walletAddress') walletAddress: string,
     @Query() request: ListingRequest,
-  ): Promise<Metadata<JsonMetadata<string>>[]> {
+  ): Promise<Nft[]> {
     const serviceRequest: GetNFTsByAddressRequest = {
       walletAddress,
       ...request,
